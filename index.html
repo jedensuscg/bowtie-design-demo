@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bowtie Design</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -23,7 +26,7 @@
 <body>
     <section id="title">
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href=""><u>BOWTIE DESIGNS</u></a>
+            <a class="navbar-brand" href=""><span class="logo">BOWTIE DESIGNS</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,16 +51,17 @@
                 </ul>
             </div>
         </nav>
-
-        <div class="container">
+        <div class="container-fluid mb-5">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="display-4">The only thing cooler than a bowtie, is <strong>your</strong> custom bowtie.</h1>
+                    <h1 class="text-white">The only thing cooler than a bowtie, is <strong>your</strong> custom bowtie.
+                    </h1>
                 </div>
                 <div class="col-md-4">
                     <img src="images/bowtiered2.png" class="img-fluid" alt="red-bowtie">
                 </div>
             </div>
+        </div>
         </div>
 
 
@@ -65,93 +69,130 @@
     </section>
 
     <section id="company">
-        <div>
-            <h1>OUR COMPANY</h1>
-            <h2>Is your company</h2>
-        </div>
-        <div>
-            <button>Who We Are</button>
-            <p>We are Harry and Sally, a pair of Doctors who turned their love of bowties and passion for creating into
-                a business. We started selling bowties locally, and became known for our quality and attention to
-                detail. We eventually bought a wharehouse, and scaled our business to the largest custome bowtie botique
-                on the web. </p>
-            <button>What We Do</button>
-            <p>We handcraft every bowtie we ship. We personally vet and train every employer who works for us, so that
-                each and every bowtie is crafted with the same combination of exacting standards and personal touch that
-                you would recieve from us. Even Harry and Sally frequent still frequently create bowties for our
-                customers.</p>
-            <img src="images/bowtie-making.png" class="img-fluid" alt="making a bowtie">
-            <button>What We Believe</button>
-            <p>We believe that there is no occasion where a bowtie can not be proudly worn. From a traditional black tie
-                affair, or a saturday night at the club. We also believe that bowties are inherently personal, and that
-                each bowtie should reflect the wearers personality and style. This is why we feel that the only way to
-                craft a bowtie, is to craft it by hand, with input from the person who will end up wearing it. You tell
-                us what you want, and we will handcraft it, for you and no one else. There are no robotic machines or
-                bulk sewing machines in our wharehouse, only small, hand operated machines that your grandmother might
-                have used.</p>
-        </div>
+        <div class="container-fluid text-center override-pad">
+            <div class="section-bar row">
+                <div class="col">
+                    <h2>OUR COMPANY</h2>
+                    <h3>Is your company</h3>
+                </div>
+            </div>
+            <div class="row py-3 body-text">
+                <div class="col"><button>Who We Are</button>
+                    <button>What We Do</button>
+                    <button>What We Believe</button>
+                    <p id="who">We are Harry and Sally, a pair of Doctors who turned their love of bowties and passion
+                        for
+                        creating
+                        into
+                        a business. We started selling bowties locally, and became known for our quality and attention
+                        to
+                        detail. We eventually bought a wharehouse, and scaled our business to the largest custome bowtie
+                        botique
+                        on the web. </p>
+                    <p id="what">We handcraft every bowtie we ship. We personally vet and train every employer who works
+                        for
+                        us,
+                        so
+                        that
+                        each and every bowtie is crafted with the same combination of exacting standards and personal
+                        touch
+                        that
+                        you would recieve from us. Even Harry and Sally frequent still frequently create bowties for our
+                        customers.</p>
+                    <img src="images/bowtie-making.png" width="40%" class="img-fluid" alt="making a bowtie">
+
+                    <p id="believe">We believe that there is no occasion where a bowtie can not be proudly worn. From a
+                        traditional black
+                        tie
+                        affair, or a saturday night at the club. We also believe that bowties are inherently personal,
+                        and
+                        that
+                        each bowtie should reflect the wearers personality and style. This is why we feel that the only
+                        way
+                        to
+                        craft a bowtie, is to craft it by hand, with input from the person who will end up wearing it.
+                        You
+                        tell
+                        us what you want, and we will handcraft it, for you and no one else. There are no robotic
+                        machines
+                        or
+                        bulk sewing machines in our wharehouse, only small, hand operated machines that your grandmother
+                        might
+                        have used.</p>
+                </div>
+            </div>
     </section>
 
     <section id="styles">
-        <div>
-            <h1>STYLES AND MATERIALS</h1>
-            <h2>We have a large stock of quality materials in varius colors and prints</h2>
-        </div>
-        <div>
-            <img src="images/bowtiepink.png" alt="pink bowtie">
-            <p>Bowties are not just for men, we have a wide selection of in stock colors and styles for women and
-                children.</p>
-            <img src="images/bowtie-blue-diamondtip.png" alt="diamond tip bowtie">
-            <p>We can make any popular style, including slim, diamond tip, and reversable ties for when you want
-                versatility while saving space.</p>
-            <img src="images/bowtie-silver-silkknit.png" alt="silk knit bowtie">
-            <p>Materials? We got all the popular ones in stock, from traditional silk, to wool, silk knit, cotton
-                and linen</p>
+        <div class="container-fluid text-center override-pad">
+            <div class="section-bar text-center">
+                <h2>STYLES AND MATERIALS</h2>
+                <h3>We have a large stock of quality materials in varius colors and prints</h3>
+            </div>
+            <div>
+                <img src="images/bowtiepink.png" class="img-fluid" alt="pink bowtie">
+                <p>Bowties are not just for men, we have a wide selection of in stock colors and styles for women and
+                    children.</p>
+                <img src="images/bowtie-blue-diamondtip.png" class="img-fluid" alt="diamond tip bowtie">
+                <p>We can make any popular style, including slim, diamond tip, and reversable ties for when you want
+                    versatility while saving space.</p>
+                <img src="images/bowtie-silver-silkknit.png" class="img-fluid" alt="silk knit bowtie">
+                <p>Materials? We got all the popular ones in stock, from traditional silk, to wool, silk knit, cotton
+                    and linen</p>
+            </div>
         </div>
 
 
     </section>
 
     <section id="custom">
-        <div>
-            <h1>CUSTOM DESIGNS</h1>
-            <h2>Can't find that special print or material in your stock? We can source whatever you need.</h2>
-        </div>
-        <div>
-            <p>While we carry a large selection of materials in a large selection of prints, finishs and colors, we
-                understand you might want something that is truly "you". We will work with you, and our network of
-                textile
-                suppliers, to get that perfect design. </p>
-            <img src="images/bowtie-christmas.png" alt="christmas vacation bowtie">
-            <p>We can turn any pattern you want have into a fantastic bowtie. We will cut and create a bowtie using your
-                own
-                pattern so that it looks clean, without unsightly seams or missing elements.</p>
+        <div class="container-fluid text-center override-pad">
+            <div class="section-bar text-center">
+                <h2>CUSTOM DESIGNS</h2>
+                <h3>Can't find that special print or material in your stock? We can source whatever you need.</h3>
+            </div>
+            <div>
+                <p>While we carry a large selection of materials in a large selection of prints, finishs and colors, we
+                    understand you might want something that is truly "you". We will work with you, and our network of
+                    textile
+                    suppliers, to get that perfect design. </p>
+                <img src="images/bowtie-christmas.png" class="img-fluid" alt="christmas vacation bowtie">
+                <p>We can turn any pattern you want have into a fantastic bowtie. We will cut and create a bowtie using
+                    your
+                    own
+                    pattern so that it looks clean, without unsightly seams or missing elements.</p>
+            </div>
         </div>
     </section>
 
     <section id="testimonials">
-        <div>
-            <h1>Testimonials</h1>
-            <h2>We can say what we want, so see what others just like you think.</h2>
-        </div>
-        <h2>This was the best bowtie I have ever worn. The quality is superb, and I know that I will be the only one
-            wearing it at any event I attend.</h2>
-        <img src="images/" alt="profile-pic1">
-        <em>John, New York</em>
+        <div class="container-fluid text-center override-pad">
+            <div class="section-bar text-center">
+                <h2>TESTIMONIALS</h2>
+                <h3>We can say what we want, so see what others just like you think.</h3>
+            </div>
+            <h3>This was the best bowtie I have ever worn. The quality is superb, and I know that I will be the only one
+                wearing it at any event I attend.</h3>
+            <img src="images/" alt="profile-pic1">
+            <em>John, New York</em>
 
-        <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
         <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
         <em>Beverly, Illinois</em> -->
+        </div>
     </section>
 
-    <section id="contact">
-        <h1>GET STARTED NOW</h1>
-        <h2>And have a unique look for your next event</h2>
-        <p>Fill out the form, and we will get in touch with you to start discussing your next custom bowtie.</p>
+    <section id="contact" class="section-bar text-center">
+
+        <div class="container-fluid text-center override-pad">
+            <h2>GET STARTED NOW</h2>
+            <h3>And have a unique look for your next event</h3>
+            <p>Fill out the form, and we will get in touch with you to start discussing your next custom bowtie.</p>
+        </div>
 
     </section>
 
-    <section id="footer">
+    <section id="footer" class="section-bar text-center">
 
     </section>
 
