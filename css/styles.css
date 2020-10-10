@@ -47,3 +47,22 @@ h1 {
     padding: 0;
 }
 
+.start-hidden {
+    display: none;
+}
+
+.btn-selected {
+    background-color: lightslategray;
+}
+
+.btn-selected:hover {
+    background-color: lightslategray;
+}
+
+.btn-selected:focus {
+    background-color: lightslategray;
+}
+
+#title-image {
+    transform: rotate(20deg);
+}
